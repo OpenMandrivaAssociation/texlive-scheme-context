@@ -1,11 +1,11 @@
-# revision 26699
+# revision 29997
 # category Scheme
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-scheme-context
-Version:	20120810
+Version:	20131013
 Release:	1
 Summary:	ConTeXt scheme
 Group:		Publishing
@@ -31,6 +31,7 @@ Requires:	texlive-pxfonts
 Requires:	texlive-eulervm
 Requires:	texlive-marvosym
 Requires:	texlive-wasy
+Requires:	texlive-ccicons
 Requires:	texlive-ly1
 
 %description
@@ -54,15 +55,3 @@ This is the TeX Live scheme for installing ConTeXt.
 %build
 
 %install
-
-
-%changelog
-* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120810-1
-+ Revision: 813985
-- Update to latest release.
-
-* Wed Mar 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120307-1
-+ Revision: 783107
-- Import texlive-scheme-context
-- Import texlive-scheme-context
-
