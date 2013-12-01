@@ -1,11 +1,11 @@
-# revision 29997
+# revision 32062
 # category Scheme
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-scheme-context
-Version:	20131013
+Version:	20131201
 Release:	1
 Summary:	ConTeXt scheme
 Group:		Publishing
@@ -26,6 +26,7 @@ Requires:	texlive-kurier
 Requires:	texlive-poltawski
 Requires:	texlive-xits
 Requires:	texlive-Asana-Math
+Requires:	texlive-gentium-tug
 Requires:	texlive-txfonts
 Requires:	texlive-pxfonts
 Requires:	texlive-eulervm
