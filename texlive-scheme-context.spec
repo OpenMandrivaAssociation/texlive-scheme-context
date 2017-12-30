@@ -5,8 +5,8 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-scheme-context
-Version:	20131201
-Release:	9
+Version:	20170414
+Release:	1
 Summary:	ConTeXt scheme
 Group:		Publishing
 URL:		http://tug.org/texlive
