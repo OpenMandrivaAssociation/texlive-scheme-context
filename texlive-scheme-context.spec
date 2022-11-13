@@ -1,17 +1,11 @@
-# revision 32062
-# category Scheme
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-scheme-context
-Version:	20190302
+Version:	59636
 Release:	1
 Summary:	ConTeXt scheme
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/scheme-context.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/scheme-context.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -39,19 +33,19 @@ Requires:	texlive-ly1
 This is the TeX Live scheme for installing ConTeXt.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0
+%autosetup -p1 -c
 
 %build
 
