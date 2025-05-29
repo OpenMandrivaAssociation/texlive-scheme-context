@@ -1,6 +1,6 @@
 Name:		texlive-scheme-context
-Version:	59636
-Release:	2
+Version:	73338
+Release:	1
 Summary:	ConTeXt scheme
 Group:		Publishing
 URL:		https://tug.org/texlive
